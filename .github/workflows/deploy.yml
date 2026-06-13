@@ -9,9 +9,9 @@ env:
 jobs:
   test:
     env:
-      MONGODB_CLUSTER_ADDRESS:
-      MONGODB_USERNAME:
-      MONGODB_PASSWORD:
+      MONGODB_CLUSTER_ADDRESS: cluster0.69frpgv.mongodb.net
+      MONGODB_USERNAME: gha_env_db_user
+      MONGODB_PASSWORD: vYjv1gACqyKqZpmv
       PORT: 8080
     environment: testing
     runs-on: ubuntu-latest
